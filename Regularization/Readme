@@ -1,0 +1,17 @@
+Logistic Regression with `scikit-learn` and Regularizations
+
+ 
+
+Logistic regression is one of the fundamental classification models in machine learning. It leverages the logistic (sigmoid) curve to assign probabilistic values to each datapoint and uses these probabilities to make predictions.
+
+In this , we will survey the important components of a binary logistic regression model with the `scikit-learn` `LogisticRegression` model. We will then apply this regression to the [Movie Review Polarity data](https://www.kaggle.com/nltkdata/movie-review) and make predictions of whether a given movie review is negative or positive. Finally, we will regularize this regression with both the L1 and L2 norms and compare these regularizations.Regularization imposes a penalty against overcomplexity and is used to mitigate overfitting. 
+
+Objectives 
+- Implement the `LogisticRegression` model from the `scikit-learn` package.
+- Regularize the regression with the L2 norm.
+- Regularize the regression with the L1 norm.
+- Compare the models using the Movie Review Polarity data.
+
+Please refer img folder
+
+Prerequisite Python 3

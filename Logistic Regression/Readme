@@ -1,0 +1,19 @@
+Binary Logistic Regression
+
+Logistic regression is one of the fundamental classification models in machine learning. It leverages the logistic (sigmoid) curve to assign probabilistic values to each datapoint and uses these probabilities to make predictions.
+
+We will convert the [Movie Review Polarity data](https://www.kaggle.com/nltkdata/movie-review), an example of a Natural Language Processing (NLP) dataset, into the appropriate representation for learning. We will then apply binary logistic regression on this dataset and make predictions of whether a given movie review is negative or positive.
+
+
+Objective
+- Build a binary logistic regression model
+- Use SGD to learn the parameters of your model
+- Visualize the SGD optimization path and the logistic regression decision boundary on a sample dataset
+- Load the Movie Review dataset into the appropriate representation
+- Apply logistic regression to learn and make predictions on the Movie Review dataset
+
+Please refer figures folder
+
+Prerequisite 
+
+Python 3

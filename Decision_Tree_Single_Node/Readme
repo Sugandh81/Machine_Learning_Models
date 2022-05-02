@@ -1,0 +1,10 @@
+One node Decision Tree: Decision Stump
+
+A Decision Stump is a one-node Decision Tree. The dataset is split on the values of as single provided attribute. The label at the leaf nodes is decided via the majority voting algorithm.
+
+Below is the example of decision stump. The attribute is  "anaemia". The dataset is split whether a person has anemia (right) or not(left). Both the labels at the leaf nodes indicate "alive" prediction.
+
+Please refer img folder
+
+Prerequisite
+Python 3

@@ -1,0 +1,9 @@
+Model Selection
+
+ML models often have *hyperparameters*, which are variables that define different architectural aspects of your model and can influence whether your model underfits or overfits the training data. For decision trees, notable hyperparameters include tree depth, number of leaf nodes, and the purity threshold (*e.g.* mutual information). These variables are usually tuned experimentally, using a process called *hyperparameter optimization* (a special case of model selection, although these terms are often used interchangably). 
+
+We will be using [scikit-learn](https://scikit-learn.org/stable/), a popular ML library. Specifically,we will be using the [DecisionTreeClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html#sklearn.tree.DecisionTreeClassifier) class to create y decision tree (which will be more developed and optimized than the decision tree you built previously). We will also be using [matplotlib](https://matplotlib.org/3.3.3/index.html) for plotting. 
+
+Prerequisite
+
+Python 3
